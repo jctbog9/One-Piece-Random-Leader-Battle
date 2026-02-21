@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/One-Piece-Random-Leader-Battle/static/css/main.c9bc9935.css",
+    "main.js": "/One-Piece-Random-Leader-Battle/static/js/main.9ab6e992.js",
+    "static/js/453.b109caab.chunk.js": "/One-Piece-Random-Leader-Battle/static/js/453.b109caab.chunk.js",
+    "index.html": "/One-Piece-Random-Leader-Battle/index.html",
+    "main.c9bc9935.css.map": "/One-Piece-Random-Leader-Battle/static/css/main.c9bc9935.css.map",
+    "main.9ab6e992.js.map": "/One-Piece-Random-Leader-Battle/static/js/main.9ab6e992.js.map",
+    "453.b109caab.chunk.js.map": "/One-Piece-Random-Leader-Battle/static/js/453.b109caab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9bc9935.css",
+    "static/js/main.9ab6e992.js"
+  ]
+}
