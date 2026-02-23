@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/One-Piece-Random-Leader-Battle/static/css/main.c9bc9935.css",
-    "main.js": "/One-Piece-Random-Leader-Battle/static/js/main.9ab6e992.js",
+    "main.css": "/One-Piece-Random-Leader-Battle/static/css/main.153993c2.css",
+    "main.js": "/One-Piece-Random-Leader-Battle/static/js/main.85568a93.js",
     "static/js/453.b109caab.chunk.js": "/One-Piece-Random-Leader-Battle/static/js/453.b109caab.chunk.js",
+    "static/media/ocean-background.png": "/One-Piece-Random-Leader-Battle/static/media/ocean-background.736784be3a33ea255f6c.png",
+    "static/media/strawhat.png": "/One-Piece-Random-Leader-Battle/static/media/strawhat.68f54297cee7866066c2.png",
     "index.html": "/One-Piece-Random-Leader-Battle/index.html",
-    "main.c9bc9935.css.map": "/One-Piece-Random-Leader-Battle/static/css/main.c9bc9935.css.map",
-    "main.9ab6e992.js.map": "/One-Piece-Random-Leader-Battle/static/js/main.9ab6e992.js.map",
+    "main.153993c2.css.map": "/One-Piece-Random-Leader-Battle/static/css/main.153993c2.css.map",
+    "main.85568a93.js.map": "/One-Piece-Random-Leader-Battle/static/js/main.85568a93.js.map",
     "453.b109caab.chunk.js.map": "/One-Piece-Random-Leader-Battle/static/js/453.b109caab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9bc9935.css",
-    "static/js/main.9ab6e992.js"
+    "static/css/main.153993c2.css",
+    "static/js/main.85568a93.js"
   ]
 }
