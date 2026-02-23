@@ -22,20 +22,24 @@ h1, h2, h3, label, input, button {
   align-items: center;
 }
 
-.button-container {
+.button-container, .leader-container {
   height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(180deg, rgba(23, 23, 23, 0.35), rgba(27, 26, 26, 0.45));
+  background: linear-gradient(180deg, rgba(23, 23, 23, 1), rgba(27, 26, 26, 1));
   border: 3px solid #f6c85f;
   border-radius: 12px;
-  padding: 0px 64px;
+  padding: 0px 128px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.leader-container {
+  height: 780px;
 }
 
 .input-label {
@@ -59,7 +63,8 @@ h1, h2, h3, label, input, button {
   min-height: 100vh;
   padding: 48px;
   box-sizing: border-box;
-  background: radial-gradient(circle at 10% 10%, #07243a 0%, #04141a 40%, #001018 100%);
+  background-image: url('./assets/images/ocean-background.png');
+  background-size: cover;
   color: #ffffff;
   font-family: 'Pirata One', cursive;
   display: flex;

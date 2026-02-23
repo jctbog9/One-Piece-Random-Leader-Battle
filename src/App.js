@@ -57,7 +57,7 @@ function App() {
         ) : (
           // Completed State
           isRandomized ? (
-            <div>
+            <div className="leader-container">
               <div className="leader-display-row">
                 <CardContainer leader={player1Data}></CardContainer>
                 <h1>VS!!</h1>
