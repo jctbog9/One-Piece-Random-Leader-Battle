@@ -1,3 +1,7 @@
+h1, h2, h3, label, input, button {
+  letter-spacing: 1px;
+}
+
 .card-container {
   max-width: 310px;
 }
@@ -19,15 +23,103 @@
 }
 
 .button-container {
-  height: 480px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
+  background: linear-gradient(180deg, rgba(23, 23, 23, 0.35), rgba(27, 26, 26, 0.45));
+  border: 3px solid #f6c85f;
+  border-radius: 12px;
+  padding: 0px 64px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-label {
+  font-size: 26px;
+}
+
+.input-div {
+  width: 100%;
+  margin-bottom: 16px;
 }
 
 .custom-spinner {
   height: 48px !important;
   width: 48px !important;
   margin: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+.one-piece-theme {
+  min-height: 100vh;
+  padding: 48px;
+  box-sizing: border-box;
+  background: radial-gradient(circle at 10% 10%, #07243a 0%, #04141a 40%, #001018 100%);
+  color: #ffffff;
+  font-family: 'Pirata One', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container label {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-container input.form-control {
+  background: linear-gradient(90deg, #f3d27a, #f1d4b6);
+  border: 2px solid #6b3b00;
+  color: #000000;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+input.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid #6b3b00
+}
+
+.one-piece-btn,
+.one-piece-btn.btn-info {
+  background: linear-gradient(90deg, #ffcf4a, #ff8a18);
+  color: #2b1200;
+  border: 2px solid #6b3b00;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.one-piece-btn:hover {
+  filter: brightness(0.95);
+}
+
+.leader-display-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin: 18px 0;
+}
+
+.custom-spinner {
+  border-width: 6px !important;
+}
+
+h1,
+h3 {
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.strawhat-image {
+  max-width: 200px;
 }
